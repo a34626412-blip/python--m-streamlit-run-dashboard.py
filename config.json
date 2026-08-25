@@ -1,0 +1,21 @@
+{
+  "interval": 1,
+  "timeout": 2.5,
+  "min_multiplier": 1.01,
+  "brand_id": "2186087039504621568",
+  "api_hosts": [
+    "api-g-c7818b61-607.sptpub.com",
+    "api-g-1289c5be-1336.sptpub.com",
+    "api-g-eab80791-1316.sptpub.com"
+  ],
+  "promo_path": "/api/v2/promo/banners/brand/{brand_id}/en",
+  "event_paths": [
+    "/api/v4/prematch/brand/{brand_id}/event/en/{event_id}",
+    "/api/v4/prematch/brand/{brand_id}/event/{event_id}/en"
+  ],
+  "event_url_template": "https://chips.gg/sports/event/{event_id}",
+  "event_cache_ttl": 60,
+  "exclude_started": true,
+  "clock_skew_seconds": 3,
+  "max_event_workers": 4
+}
